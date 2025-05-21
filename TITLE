@@ -1,0 +1,32 @@
+# Reaction Timer Game
+
+An Arduino-based multiplayer reaction time game using LEDs, push buttons, and LCD.
+
+## 🔧 Tools & Components Used:
+- Arduino UNO
+- Push buttons (3)
+- IR Sensors
+- LEDs (3)
+- LiquidCrystal LCD
+- Buzzer (optional)
+- Resistors, jumper wires, breadboard
+
+## 🎮 How It Works:
+1. Players place their hands near IR sensors.
+2. A random delay occurs.
+3. LEDs light up — players press the buttons as fast as possible.
+4. LCD shows reaction time and declares the winner.
+
+## 📷 Project Images:
+![Setup](project-setup.jpg)
+![Wiring](wiring.jpg)
+
+## 🎥 Demo Video:
+[Watch Demo on Google Drive](https://drive.google.com/your-video-link)
+
+## 💡 What I Learned:
+- Real-time data handling with `millis()`
+- IR sensor integration
+- LCD display interfacing
+- Multiplayer game logic in embedded C
+
